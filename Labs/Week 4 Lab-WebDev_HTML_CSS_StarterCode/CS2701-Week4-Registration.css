@@ -9,7 +9,7 @@ header{
     background-image:url(SharingFood.jpg);
     background-repeat: repeat;
     background-size: contain;
-    background-position: center;
+    background-position: left;
     height:200px;
     width: 100%;
     margin: auto;
@@ -66,11 +66,17 @@ aside {
     /*ToDo: Set width.ToDo: For fluid layouts, use min-width, max-width, and set to relative 
    values, like 25% of the page.*/ 
     background-color: #deded8;
+    position: fixed;
+    margin: 0%;
+    padding: 0%;
+    width:200px;
 }
 
 section {
     /*ToDo: Set width. For fluid layouts, use min-width, max-width, and set to relative 
    values, like 75% of the page.*/
+   align-content: center;
+   margin-left: 300px;
 }
 
 /*Styling for search in aside*/
@@ -86,6 +92,8 @@ section {
     */
     border: 3px solid green;
     padding: 10px;
+    width: 50%;
+
   }
 
 /* Styling for text inputs in the form*/
